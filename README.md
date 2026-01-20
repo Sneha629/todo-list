@@ -1,12 +1,114 @@
-# React + Vite
+# 📋 Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and clean **Todo List Application** built using **React** and **Vite**.  
+This app helps you manage daily tasks — add, complete, and remove tasks easily with a minimal interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+✨ Basic task management features:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new tasks  
+- Mark tasks as completed  
+- Delete tasks  
+- Persistent UI (handled by React state — can be extended to local storage)
+
+---
+
+## 🧰 Tech Stack
+
+This project uses modern front-end tooling:
+
+- 🧠 **React** – UI library  
+- ⚡ **Vite** – Fast build & dev server  
+- 💅 **CSS** – Styling components & layout
+
+---
+
+## 📦 Installation
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/Sneha629/todo-list.git
+Navigate into the project directory
+
+bash
+Copy code
+cd todo-list
+Install dependencies
+
+bash
+Copy code
+npm install
+Start the development server
+
+bash
+Copy code
+npm run dev
+Open in your browser
+
+Visit: http://localhost:5173 (or as suggested by Vite)
+
+🛠️ How to Use
+Once the app is running:
+
+Type a task in the input field
+
+Press Enter or click “Add” to save a task
+
+Click the checkbox to mark a task as done
+
+Click delete to remove a task
+
+🧠 Project Structure
+pgsql
+Copy code
+📦todo-list
+ ┣ 📂public
+ ┣ 📂src
+ ┃ ┣ ┣ App.jsx
+ ┃ ┣ ┣ Design.jsx
+ ┃ ┣ ┣ index.css
+ ┃ ┃ ┗ main.jsx
+ ┣ .gitignore
+ ┣ package.json
+ ┣ vite.config.js
+ ┗ README.md
+🙌 Contributing
+Contributions are welcome!
+Feel free to:
+
+open issues
+
+submit pull requests
+
+suggest improvements
+
+⭐ Support
+If you like this project, give it a ⭐ on GitHub!
+
+📜 License
+This project is open-source — feel free to use and modify it for your own projects.
+
+yaml
+Copy code
+
+---
+
+### 📌 Tips for Improving This Project
+
+Here are some enhancements you can consider:
+
+✅ Add **local storage saving** so tasks persist on refresh  
+✅ Add **task editing** for existing items  
+✅ Add **filtering** (All, Active, Completed)  
+✅ Add **due dates** and **priority tags**  
+
+---
+
+If you want, I can also help you generate **badges**, **demo screenshots section**, or a **project logo** for your README! 🚀
+::contentReference[oaicite:1]{index=1}
